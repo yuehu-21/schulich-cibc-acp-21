@@ -1,5 +1,5 @@
 # schulich-cibc-acp-21
-This project is intended to build connection graphs of high-net worth people in Canada.
+This project is intended to build connection graphs of ultra-high net worth people in Canada.
 
 1. Run the [namelist crawler](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/namelistcrawler/main.py) to get the names and basic profile information from yahoo finance.
    This crawler is modified from [yahoo_finance_scrap](https://github.com/Jaydeeph/MakeMeMoney/blob/809ca2a560858f6559d94f9f18a218bb715fcc4a/python_scripts/yahoo_finance_scrape.py).
