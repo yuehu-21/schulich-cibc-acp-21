@@ -11,7 +11,7 @@ This project is intended to build connection graphs of ultra-high net worth peop
 
 # Screenshots of samples
 
-1. The outputs are based on the executives (126 people) whose anual salaries are higher than 2 million CAD and coming from Canadian listed companies.
+1. The outputs are based on the executives (126 people) whose anual salaries are higher than 2 million CAD and coming from listed Canadian companies.
 2. The final interactive outputs from pyecharts are coded in html. Please download them [circular](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/graph_1.html) [float](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/graph_2.html) to read in full functions.
 
 ![alt text](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/2021-10-29_190310.png?raw=true)
