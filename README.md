@@ -7,12 +7,12 @@ This project is intended to build connection graphs of high-net worth people in 
    [proxy ips](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/searchenginecrawler/getproxyip.py) and random sudo-headers are applied, and the crawler can be run on an AWS instance.
 3. Draw the graphs with [pyecharts](https://pyecharts.org/#/en-us/). You will need to prepare 3 variables: [categories](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/categories.csv), [links](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/links.csv), and [nodes](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/nodes.csv).
 4. 2 different types of graphs are provided: [circular](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/graph_2million.py) and [float](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/graph_2million_net.py)
-5. The strength level is defined by the total search amount of a people, the size of a dot is defined by the total number of connections with other people.
+5. The strength level is defined by the total search amount of a people, and the size of a dot is defined by the total number of connections with other people.
 
 # Screenshot of samples
 
 1. The outputs are based on the executives (126 people) whose anual salaries are higher than 2 million CAD and coming from Canadian listed companies.
-2. The final interactive outputs from pyecharts are coded in html. Please download them [circular](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/graph_1.html) [float](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/graph_2.html) to read them in full functions.
+2. The final interactive outputs from pyecharts are coded in html. Please download them [circular](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/graph_1.html) [float](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/graph_2.html) to read in full functions.
 
 ![alt text](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/2021-10-29_190310.png?raw=true)
 ![alt text](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/2021-10-29_190338.png?raw=true)
@@ -20,4 +20,5 @@ This project is intended to build connection graphs of high-net worth people in 
 ![alt text](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/2021-10-29_190204.png?raw=true)
 ![alt text](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/2021-10-29_190433.png?raw=true)
 ![alt text](https://github.com/yuehuca/schulich-cibc-acp-21/blob/main/buildconnectiongraph/2021-10-29_190552.png?raw=true)
+
 
